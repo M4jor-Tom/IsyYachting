@@ -1,0 +1,26 @@
+{
+  "isyYachtingApp": {
+    "reservation": {
+      "home": {
+        "title": "Reservations",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Reservation",
+        "createOrEditLabel": "Crear o editar Reservation",
+        "notFound": "Ningún Reservations encontrado"
+      },
+      "created": "Un nuevo Reservation ha sido creado con el identificador {{ param }}",
+      "updated": "Un Reservation ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Reservation ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Reservation {{ id }}?"
+      },
+      "detail": {
+        "title": "Reservation"
+      },
+      "id": "ID",
+      "day": "Day",
+      "client": "Client",
+      "rental": "Rental"
+    }
+  }
+}

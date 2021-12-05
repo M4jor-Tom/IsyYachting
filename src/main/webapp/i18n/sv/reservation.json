@@ -1,0 +1,26 @@
+{
+  "isyYachtingApp": {
+    "reservation": {
+      "home": {
+        "title": "Reservations",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Skapa en ny Reservation",
+        "createOrEditLabel": "Skapa eller ändra en Reservation",
+        "notFound": "No Reservations found"
+      },
+      "created": "En ny Reservation är skapad med id {{ param }}",
+      "updated": "En Reservation är uppdaterad med id  {{ param }}",
+      "deleted": "En Reservation är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Reservation {{ id }}?"
+      },
+      "detail": {
+        "title": "Reservation"
+      },
+      "id": "ID",
+      "day": "Day",
+      "client": "Client",
+      "rental": "Rental"
+    }
+  }
+}

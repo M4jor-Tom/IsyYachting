@@ -1,0 +1,26 @@
+{
+  "isyYachtingApp": {
+    "rentalPrice": {
+      "home": {
+        "title": "Rental Prices",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый Rental Price",
+        "createOrEditLabel": "Создать или отредактировать Rental Price",
+        "notFound": "Rental Prices не найдено"
+      },
+      "created": "Новый Rental Price создан с идентификатором {{ param }}",
+      "updated": "Rental Price обновлен с идентификатором {{ param }}",
+      "deleted": "Rental Price удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Rental Price {{ id }}?"
+      },
+      "detail": {
+        "title": "Rental Price"
+      },
+      "id": "ID",
+      "value": "Value",
+      "season": "Season",
+      "rental": "Rental"
+    }
+  }
+}

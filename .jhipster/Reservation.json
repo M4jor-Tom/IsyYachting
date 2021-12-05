@@ -1,0 +1,40 @@
+{
+  "name": "Reservation",
+  "fields": [],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "day",
+      "otherEntityRelationshipName": "reservationList",
+      "relationshipValidateRules": "required",
+      "relationshipName": "day",
+      "otherEntityField": "time"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "client",
+      "otherEntityRelationshipName": "reservationList",
+      "relationshipValidateRules": "required",
+      "relationshipName": "client",
+      "otherEntityField": "lastName"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "rental",
+      "otherEntityRelationshipName": "reservationList",
+      "relationshipValidateRules": "required",
+      "relationshipName": "rental",
+      "otherEntityField": "beginingInstant"
+    }
+  ],
+  "entityTableName": "reservation",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211205211043"
+}

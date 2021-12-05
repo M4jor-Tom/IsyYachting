@@ -42,6 +42,8 @@
     "clientPackageManager": "npm",
     "clientThemeVariant": "",
     "languages": ["en", "da", "fr", "de", "it", "pt-pt", "ru", "es", "sv"],
-    "enableGradleEnterprise": false
+    "enableGradleEnterprise": false,
+    "entities": ["Day", "Client", "Reservation", "Rental", "RentalPrice"],
+    "lastLiquibaseTimestamp": 1638738645000
   }
 }

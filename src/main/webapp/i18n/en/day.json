@@ -1,0 +1,26 @@
+{
+  "isyYachtingApp": {
+    "day": {
+      "home": {
+        "title": "Days",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Day",
+        "createOrEditLabel": "Create or edit a Day",
+        "notFound": "No Days found"
+      },
+      "created": "A new Day is created with identifier {{ param }}",
+      "updated": "A Day is updated with identifier {{ param }}",
+      "deleted": "A Day is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Day {{ id }}?"
+      },
+      "detail": {
+        "title": "Day"
+      },
+      "id": "ID",
+      "time": "Time",
+      "forecastedWeather": "Forecasted Weather",
+      "reservationList": "Reservation List"
+    }
+  }
+}

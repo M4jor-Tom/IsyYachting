@@ -1,0 +1,10 @@
+{
+  "isyYachtingApp": {
+    "Season": {
+      "null": "",
+      "LOW": "LOW",
+      "MIDDLE": "MIDDLE",
+      "HIGH": "HIGH"
+    }
+  }
+}

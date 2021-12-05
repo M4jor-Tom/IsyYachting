@@ -48,6 +48,15 @@ public class CacheConfiguration {
             createCache(cm, com.m4jortom.isyyachting.domain.User.class.getName());
             createCache(cm, com.m4jortom.isyyachting.domain.Authority.class.getName());
             createCache(cm, com.m4jortom.isyyachting.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.m4jortom.isyyachting.domain.Day.class.getName());
+            createCache(cm, com.m4jortom.isyyachting.domain.Day.class.getName() + ".reservationLists");
+            createCache(cm, com.m4jortom.isyyachting.domain.Client.class.getName());
+            createCache(cm, com.m4jortom.isyyachting.domain.Client.class.getName() + ".reservationLists");
+            createCache(cm, com.m4jortom.isyyachting.domain.Reservation.class.getName());
+            createCache(cm, com.m4jortom.isyyachting.domain.Rental.class.getName());
+            createCache(cm, com.m4jortom.isyyachting.domain.Rental.class.getName() + ".reservationLists");
+            createCache(cm, com.m4jortom.isyyachting.domain.Rental.class.getName() + ".rentalPriceLists");
+            createCache(cm, com.m4jortom.isyyachting.domain.RentalPrice.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

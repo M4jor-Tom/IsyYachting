@@ -1,0 +1,27 @@
+{
+  "isyYachtingApp": {
+    "rental": {
+      "home": {
+        "title": "Rentals",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Rental",
+        "createOrEditLabel": "Crear o editar Rental",
+        "notFound": "Ningún Rentals encontrado"
+      },
+      "created": "Un nuevo Rental ha sido creado con el identificador {{ param }}",
+      "updated": "Un Rental ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Rental ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Rental {{ id }}?"
+      },
+      "detail": {
+        "title": "Rental"
+      },
+      "id": "ID",
+      "beginingInstant": "Begining Instant",
+      "endingInstant": "Ending Instant",
+      "reservationList": "Reservation List",
+      "rentalPriceList": "Rental Price List"
+    }
+  }
+}

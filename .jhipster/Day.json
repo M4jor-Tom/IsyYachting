@@ -1,0 +1,33 @@
+{
+  "name": "Day",
+  "fields": [
+    {
+      "fieldName": "time",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "forecastedWeather",
+      "fieldType": "CancelingWeather",
+      "fieldValues": "TOO_WINDY,TOO_RAINY,TOO_SWELLY"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "reservation",
+      "otherEntityRelationshipName": "day",
+      "relationshipName": "reservationList"
+    }
+  ],
+  "entityTableName": "day",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211205211041"
+}

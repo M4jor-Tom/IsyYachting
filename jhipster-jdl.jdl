@@ -1,0 +1,64 @@
+entity Day {
+	time Instant required
+	forecastedWeather CancelingWeather
+}
+
+entity Client {
+	firstName String required
+    lastName String required
+    phone String
+    email String
+    nationality Nationality
+}
+
+enum Nationality {
+	FRENCH,
+    SWISS,
+    ENGLISH,
+    GERMAN,
+    ITALIAN,
+    SPANISH,
+    RUSSIAN
+}
+
+entity Reservation {
+
+}
+
+enum CancelingWeather {
+	TOO_WINDY,
+    TOO_RAINY,
+    TOO_SWELLY
+}
+
+entity Rental {
+	beginingInstant Instant required
+	endingInstant Instant required
+}
+
+entity RentalPrice {
+	value Double required
+    season Season required
+}
+
+relationship ManyToOne {
+	Reservation{day(time) required} to Day{reservationList}
+}
+
+relationship ManyToOne {
+	Reservation{client(lastName) required} to Client{reservationList}
+}
+
+relationship ManyToOne {
+	Reservation{rental(beginingInstant) required} to Rental{reservationList}
+}
+
+relationship ManyToOne {
+	RentalPrice{rental(beginingInstant) required} to Rental{rentalPriceList(value)}
+}
+
+enum Season {
+	LOW,
+    MIDDLE,
+    HIGH
+}

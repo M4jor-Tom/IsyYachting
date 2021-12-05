@@ -1,0 +1,36 @@
+{
+  "name": "RentalPrice",
+  "fields": [
+    {
+      "fieldName": "value",
+      "fieldType": "Double",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "season",
+      "fieldType": "Season",
+      "fieldValues": "LOW,MIDDLE,HIGH",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "rental",
+      "otherEntityRelationshipName": "rentalPriceList",
+      "relationshipValidateRules": "required",
+      "relationshipName": "rental",
+      "otherEntityField": "beginingInstant"
+    }
+  ],
+  "entityTableName": "rental_price",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211205211045"
+}

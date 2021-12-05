@@ -1,0 +1,26 @@
+{
+  "isyYachtingApp": {
+    "rentalPrice": {
+      "home": {
+        "title": "Rental Prices",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Skapa en ny Rental Price",
+        "createOrEditLabel": "Skapa eller ändra en Rental Price",
+        "notFound": "No Rental Prices found"
+      },
+      "created": "En ny Rental Price är skapad med id {{ param }}",
+      "updated": "En Rental Price är uppdaterad med id  {{ param }}",
+      "deleted": "En Rental Price är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Rental Price {{ id }}?"
+      },
+      "detail": {
+        "title": "Rental Price"
+      },
+      "id": "ID",
+      "value": "Value",
+      "season": "Season",
+      "rental": "Rental"
+    }
+  }
+}

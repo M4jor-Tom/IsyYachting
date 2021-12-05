@@ -1,0 +1,29 @@
+{
+  "isyYachtingApp": {
+    "client": {
+      "home": {
+        "title": "Clients",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Criar novo(a) Client",
+        "createOrEditLabel": "Criar ou editar Client",
+        "notFound": "Nenhum Clients encontrado"
+      },
+      "created": "Um novo Client foi criado com o identificador {{ param }}",
+      "updated": "Client com identificador {{ param }} foi actualizado",
+      "deleted": "Client com identificador {{ param }} foi eliminado",
+      "delete": {
+        "question": "Tem a certeza que pretende eliminar o(a) Client {{ id }}?"
+      },
+      "detail": {
+        "title": "Client"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "phone": "Phone",
+      "email": "Email",
+      "nationality": "Nationality",
+      "reservationList": "Reservation List"
+    }
+  }
+}

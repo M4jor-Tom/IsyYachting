@@ -28,6 +28,11 @@ import TranslationService from '@/locale/translation.service';
 import UserOAuth2Service from '@/entities/user/user.oauth2.service';
 /* tslint:disable */
 
+import DayService from '@/entities/day/day.service';
+import ClientService from '@/entities/client/client.service';
+import ReservationService from '@/entities/reservation/reservation.service';
+import RentalService from '@/entities/rental/rental.service';
+import RentalPriceService from '@/entities/rental-price/rental-price.service';
 // jhipster-needle-add-entity-service-to-main-import - JHipster will import entities services here
 
 /* tslint:enable */
@@ -86,6 +91,11 @@ new Vue({
 
     userOAuth2Service: () => new UserOAuth2Service(),
     translationService: () => translationService,
+    dayService: () => new DayService(),
+    clientService: () => new ClientService(),
+    reservationService: () => new ReservationService(),
+    rentalService: () => new RentalService(),
+    rentalPriceService: () => new RentalPriceService(),
     // jhipster-needle-add-entity-service-to-main - JHipster will import entities services here
     accountService: () => accountService,
     alertService: () => new AlertService(),

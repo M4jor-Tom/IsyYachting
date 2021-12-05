@@ -1,0 +1,40 @@
+{
+  "name": "Rental",
+  "fields": [
+    {
+      "fieldName": "beginingInstant",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "endingInstant",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "reservation",
+      "otherEntityRelationshipName": "rental",
+      "relationshipName": "reservationList"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "rentalPrice",
+      "otherEntityRelationshipName": "rental",
+      "relationshipName": "rentalPriceList",
+      "otherEntityField": "value"
+    }
+  ],
+  "entityTableName": "rental",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20211205211044"
+}

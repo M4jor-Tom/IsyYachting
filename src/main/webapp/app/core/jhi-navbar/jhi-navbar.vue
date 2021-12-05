@@ -29,6 +29,26 @@
             <font-awesome-icon icon="th-list" />
             <span class="no-bold" v-text="$t('global.menu.entities.main')">Entities</span>
           </span>
+          <b-dropdown-item to="/day">
+            <font-awesome-icon icon="asterisk" />
+            <span v-text="$t('global.menu.entities.day')">Day</span>
+          </b-dropdown-item>
+          <b-dropdown-item to="/client">
+            <font-awesome-icon icon="asterisk" />
+            <span v-text="$t('global.menu.entities.client')">Client</span>
+          </b-dropdown-item>
+          <b-dropdown-item to="/reservation">
+            <font-awesome-icon icon="asterisk" />
+            <span v-text="$t('global.menu.entities.reservation')">Reservation</span>
+          </b-dropdown-item>
+          <b-dropdown-item to="/rental">
+            <font-awesome-icon icon="asterisk" />
+            <span v-text="$t('global.menu.entities.rental')">Rental</span>
+          </b-dropdown-item>
+          <b-dropdown-item to="/rental-price">
+            <font-awesome-icon icon="asterisk" />
+            <span v-text="$t('global.menu.entities.rentalPrice')">Rental Price</span>
+          </b-dropdown-item>
           <!-- jhipster-needle-add-entity-to-menu - JHipster will add entities to the menu here -->
         </b-nav-item-dropdown>
         <b-nav-item-dropdown
